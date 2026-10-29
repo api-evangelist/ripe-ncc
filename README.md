@@ -64,23 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RIPE NCC is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+RIPE NCC is the Regional Internet Registry for Europe, the Middle East and parts of Central Asia. It is a not‑for‑profit membership association that allocates IP address space, manages the DNS root for the .ripe region, and provides a range of services to support the RIPE community, including RIPE Atlas measurements, training, and policy development.
 
-**Areas:** Company
+**Areas:** Company · Internet · Regional Internet Registry · Not-for-profit · IP Allocation
 
 ## RIPE NCC on APIs.io
 
 Everything profiled for RIPE NCC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ripe-ncc/](https://apis.io/providers/ripe-ncc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [RIPE Database REST API](https://apis.io/apis/ripe-ncc/ripe-database-rest-api/) — RIPE Database RESTful API
+- [RIPE NCC API](https://apis.io/apis/ripe-ncc/ripe-ncc-api/) — RIPE NCC API as documented publicly: 28 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetSourceObjecttypeKeyVersionsResponse](https://apis.io/schemas/ripe-ncc/ripe-ncc-get-source-objecttype-key-versions-response/)
+- [GetSourceObjecttypeKeyVersionsVersionnumberResponse](https://apis.io/schemas/ripe-ncc/ripe-ncc-get-source-objecttype-key-versions-versionnumber-response/)
+- [PostSourceObjecttypeRequest](https://apis.io/schemas/ripe-ncc/ripe-ncc-post-source-objecttype-request/)
+- [PostSourceObjecttypeResponse](https://apis.io/schemas/ripe-ncc/ripe-ncc-post-source-objecttype-response/)
+- [PutSourceObjecttypeKeyRequest](https://apis.io/schemas/ripe-ncc/ripe-ncc-put-source-objecttype-key-request/)
+- [PutSourceObjecttypeKeyResponse](https://apis.io/schemas/ripe-ncc/ripe-ncc-put-source-objecttype-key-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ripe Ncc Context](https://apis.io/jsonld/ripe-ncc/ripe-ncc-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RIPE NCC API Rules](https://apis.io/rules/ripe-ncc/ripe-ncc-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ripe Ncc Authentication](https://apis.io/security/ripe-ncc/ripe-ncc-authentication/)
+- [Ripe Ncc Domain Security](https://apis.io/security/ripe-ncc/ripe-ncc-domain-security/)
+- [Ripe Ncc Vulnerability Disclosure](https://apis.io/security/ripe-ncc/ripe-ncc-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ripe Ncc Scopes](https://apis.io/scopes/ripe-ncc/ripe-ncc-scopes/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://ripe.net/)
+- [Getting started](https://docs.db.ripe.net/RIPE-Database-Mirror/Setup-RIPE-Database-Mirror/)
+- [Sign up](https://www.ripe.net/membership/member-support/become-a-member/)
+- [Support](https://www.ripe.net/about-us/support/)
+- [Changelog](https://www.ripe.net/manage-ips-and-asns/db/release-notes/)
+- [Blog](https://labs.ripe.net/)
+- [Security](https://www.ripe.net/about-us/support/contact/responsible-disclosure-policy/)
+- [Trust centre](https://trust.ripe.net/)
+- [Terms of service](https://www.ripe.net/about-us/legal/terms-of-service/)
+- [Privacy policy](https://www.ripe.net/about-us/legal/ripe-ncc-privacy-statement/)
+- [GitHub](https://github.com/RIPE-NCC)
+- [Status](https://status.ripe.net/)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/ripe-ncc/](https://apis.io/providers/ripe-ncc/).
+**Kin Score 51.6** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 53.2 |
+| Contract governance | 70.9 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 42.1 |
+
+**Agent readiness 20.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ripe-ncc/](https://apis.io/providers/ripe-ncc/).
 
 ## How this profile is made
 
